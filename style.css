@@ -1,0 +1,55 @@
+header{
+    background-color: aqua;
+    margin:0 20px;
+    border:2px slateblue solid;
+    padding: 22px 0;
+
+}
+nav a{
+    padding: 10px 20px;
+    text-decoration-line: none;
+    text-align: center;
+    
+}
+.container1{
+     background-color: blue;
+     /*  display:inline-block; */
+     height: 40vh;
+     width:30vw; 
+     float: left;
+}
+.box{
+    font-family: 'Lobster', cursive;
+    font-size: smaller;
+    height: 40vh;
+     width:30vw;
+     background-color: darkturquoise;
+    }
+     
+.container2{
+    background-color: darkslateblue;
+    float:right;
+    height: 40vh;
+     width:30vw; 
+}
+.main{
+    display:flex;
+    justify-content:space-evenly;
+    border: 2px thick black;
+    background-color: violet;
+    height: 70vh;
+}
+a a:hover{
+    background-color: dimgray;
+}
+@media  screen  and
+   ( max-width: 700px){
+       .main{
+           background-color: tomato;
+       }
+   }
+
+    
+
+ 
+    
